@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(204, 43%, 93%);
+    font-family: 'Karla', sans-serif;
+   
+    
+}
+
+.single__price__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 2rem;
+}
+
+.radius {
+    border-radius: 0.5em;
+    overflow: hidden;
+    
+
+}
+
+.single__price__community {
+    background-color: white;
+    padding: 1.5em;
+}
+
+.single__price__title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: hsl(179, 62%, 43%);
+    margin-bottom: 1em;
+}
+
+.single__price__text {
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: hsl(71, 73%, 54%);
+    margin-bottom: 1em;
+}
+
+.single__price__description {
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: hsl(218, 22%, 67%);
+    margin-bottom: 1em;
+    line-height: 1.5em;
+}
+
+.single__price__monthly__subscription {
+    background-color: hsl(179, 62%, 43%);
+    padding: 2rem;
+
+}
+
+.single__price__monthly__title {
+    font-size: 1rem;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 1em;
+}
+
+.single__price__monthly__price {
+    font-size: 1rem;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 1em;
+}
+
+.single__price__monthly__price__cents {
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: hsl(204, 43%, 93%);
+    margin-bottom: 1em;
+}
+
+.single__price__monthly__button {
+    background-color: hsl(71, 73%, 54%);
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+    font-size: 0.8rem;
+    font-weight: 700;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 1rem;
+    
+}
+
+.single__price__monthly__text {
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: hsl(204, 43%, 93%);
+    margin-bottom: 1em;
+    line-height: 1.5em;
+}
+
+
+.single__price__why__us {
+    background-color: hsla(179, 62%, 43%, 0.5);
+    padding: 2em;
+}
+
+.single__price__why__us__title {
+    font-size: 1rem;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 1em;
+}
+
+.single__price__why__us__list {
+    list-style: none;
+
+    color: hsl(204, 43%, 93%);
+    line-height: 1.5em;
+    font-size: 0.8rem;
+}
+
+
+
+
+
+
+@media (min-width: 768px) {
+
+    .single__price__container {
+        padding: 0;
+    }
+    
+    .single__price__monthly__content {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .single__price__community {
+        width: 35rem;
+    }
+
+    .single__price__monthly__subscription {
+        width: 15rem;
+    }
+
+    .single__price__why__us {
+        width: 15rem;
+    }
+}
